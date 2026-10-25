@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXPERIMENTAL V1 無線吸塵器 - 實驗體工作室 EXPERIMENTAL STUDIO</title>
+    <title>EXPERIMENTAL V1 無線吸塵器 - 實驗體工作室 EXPERIMENTAL STUDIO </title>
     <!-- 連結外部 CSS 檔案 -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- 🌟 左上角品牌列回歸（右上角依然維持乾淨無按鈕） -->
-    <header class="lp-navbar" style="border: none; background: transparent;">
-        <div class="lp-logo">實驗體工作室 EXPERIMENTAL STUDIO</div>
-    </header>
+   <!-- 🌟 左上角品牌列回歸（右上角依然維持乾淨無按鈕） -->
+<header class="lp-navbar" style="border: none; background: transparent;">
+    <!-- 💡 把 div 改成 a，href 填入你主官網的網址，並加上 style 保持原本字體顏色與去除下底線 -->
+    <a href="https://wahaha764334-source.github.io/EXPERIMENTAL-STUDIO2/"target="_blank" class="lp-logo" style="text-decoration: none; color: inherit;">實驗體工作室 EXPERIMENTAL STUDIO</a>
+</header>
+
 
     <!-- 區塊 1：強效吸睛首頁 (Hero Section) -->
     <section class="lp-section lp-hero">
@@ -123,26 +125,26 @@
     <!-- 區塊 6：金流結帳下單表單 (Order Form) -->
     <section class="lp-section" id="order-form-section">
         <div class="lp-order-card">
-            <h2>預購下單表單</h2>
-            <p class="lp-order-sub">請填寫正確資料，下單後我們將於 24 小時內儘速與您聯絡部署出貨事宜。</p>
+            <h2>純預覽圖</h2>
+            <p class="lp-order-sub">點左上角實驗體工作室看其他預覽。</p>
             <div class="lp-title-line"></div>
             
             <form class="lp-form" onsubmit="alert('預購成功！稍後將有專人與您聯絡！'); return false;">
                 <div class="lp-form-group">
                     <label>您的姓名 / 稱呼</label>
-                    <input type="text" placeholder="例如：櫻倉先生" required>
+                    <input type="text" placeholder="" required>
                 </div>
                 <div class="lp-form-group">
                     <label>電子信箱 EMAIL</label>
-                    <input type="email" placeholder="例如：cyakura764334@gmail.com" required>
+                    <input type="email" placeholder="" required>
                 </div>
                 <div class="lp-form-group">
                     <label>LINE ID (方便後續聯絡通知)</label>
-                    <input type="text" placeholder="例如：cyakura_" required>
+                    <input type="text" placeholder="" required>
                 </div>
                 <div class="lp-form-group">
                     <label>是否有特殊配送或備註需求？(選填)</label>
-                    <textarea placeholder="例如：請於平日晚上配送、或需要加購額外濾網..."></textarea>
+                    <textarea placeholder=""></textarea>
                 </div>
                 <button type="submit" class="lp-submit-btn">確認提交預購訂單</button>
             </form>
